@@ -1,0 +1,12 @@
+.header {
+    background: #fff;
+}
+
+.header_logo {
+    font-weight: 500;
+    font-family: 'jsMath-cmti10';
+    font-style: italic;
+    color: #f5c800;
+    font-size: 30px;
+    text-align: left;
+}

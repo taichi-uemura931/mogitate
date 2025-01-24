@@ -18,4 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/products', [MogitateController::class, 'products']);
+Route::post('/products/register', [MogitateController::class, 'register']);
+Route::get('/products/search', [MogitateController::class, 'search']);
 
